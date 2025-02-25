@@ -49,5 +49,5 @@ images.forEach((image) => {
     img.onclick = () => popUp(image);
 
     imgDiv = appendChild(img);
-    imgListContainer.appendChild('imgDiv');
+    imgListContainer.appendChild(imgDiv);
 });
