@@ -24,7 +24,7 @@ body, html {
     color: SlateBlue;
     padding: 20px;
     margin-right: 20px;
-    text-decoration: none; /* 링크의 기본 밑줄 제거 */
+    text-decoration: none;
 }
 
 .navbar a:hover {
@@ -81,11 +81,11 @@ header {
     }
 }
 
-.text {
+#text {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* 중앙 정렬 수정 */
+    left: 10%;
+    transform: translate(-50%, -50%);
     color: white;
     font-size: 70px;
     font-weight: bold;
@@ -129,7 +129,7 @@ footer {
     background-color: pink;
     padding: 2px;
     display: flex;
-    justify-content: center; /* 중앙 정렬로 수정 */
+    justify-content: center;
     align-items: center;
 }
 
