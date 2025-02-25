@@ -84,7 +84,7 @@ header {
 #text {
     position: absolute;
     top: 50%;
-    left: 10%;
+    right: 30%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 70px;
