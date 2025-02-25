@@ -90,6 +90,7 @@ header {
     font-size: 70px;
     font-weight: bold;
     text-shadow: -5px -5px 20px violet;
+    white-space: nowrap;
 }
 
 .right {
