@@ -69,7 +69,7 @@ header {
     background-image: url('src/image/flower.png');
     background-size: cover;
     background-position: center;
-    animation: blink 2s infinite;
+    animation: blink 5s infinite;
     z-index: 10;
 }
 

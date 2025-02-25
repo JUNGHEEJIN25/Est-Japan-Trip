@@ -6,7 +6,7 @@ const numberOfFlowers = 20;
 function createFlowers() {
     for (let i = 0; i < numberOfFlowers; i++) {
         const flower = document.createElement('div');
-        flower.classList.add('background-flower'); // 클래스 추가
+        flower.classList.add('background-flower');
 
         flower.style.top = `${Math.random() * 90}%`;
         flower.style.left = `${Math.random() * 90}%`;
