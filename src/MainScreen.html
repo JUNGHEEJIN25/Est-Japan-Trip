@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Est Japan Trip</title>
+    <link rel="stylesheet" href="Screen.css">
+<!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=hive" />
+</head>
+<body>
+
+<!-- header -->
+<header>
+    <nav class="navbar">
+        <span> welcome to Japan world </span>
+        <a href="MainScreen.html">Seeing</a>
+        <a href="foodScreen.html">Eating</a>
+    </nav>
+</header>
+
+<!-- main : left & right-->
+<main>
+    <div class="container">
+        <section class="left">
+            <img src="background2.jpg" alt="Background Image"/>
+            <div class="text">Est Japan Trip</div>
+            <div class="background-flower"></div>
+
+        </section>
+        <section class="right">
+            <div class="imgList">
+                    <div class="img-hover"><img src="image1.jpg" alt="japan trip" onclick="popUp(this.src)"></div>
+                    <div class="img-hover"><img src="image2.jpg" alt="japan trip" onclick="popUp(this.src)"></div>
+                    <div class="img-hover"><img src="image3.jpg" alt="japan trip" onclick="popUp(this.src)"></div>
+                    <div class="img-hover"><img src="image4.jpg" alt="japan trip" onclick="popUp(this.src)"></div>
+                    <div class="img-hover"><img src="image5.jpg" alt="japan trip" onclick="popUp(this.src)"></div>
+                    <div class="img-hover"><img src="image6.jpg" alt="japan trip" onclick="popUp(this.src)"></div>
+                    <div class="img-hover"><img src="image7.jpg" alt="japan trip" onclick="popUp(this.src)"></div>
+                    <div class="img-hover"><img src="image8.jpg" alt="japan trip" onclick="popUp(this.src)"></div>
+                    <div class="img-hover"><img src="image9.jpg" alt="japan trip" onclick="popUp(this.src)"></div>
+            </div>
+            <div class="popUp-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <img id="popUp-img" src="" alt="japan trip">
+            </div>
+        </section>
+    </div>
+</main>
+
+<!-- footer -->
+<footer>
+    <img src="flower.png" alt="intro-mark">
+    <p> Est Japan Trip | Made in github: https://github.com/JUNGHEEJIN25/frontend-project</p>
+</footer>
+
+<!-- script -->
+<script src="Screen.js"></script>
+
+</body>
+</html>
