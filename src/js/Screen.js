@@ -1,6 +1,5 @@
 // flower animation function
 const left = document.querySelector('.left');
-
 const numberOfFlowers = 20;
 
 function createFlowers() {
@@ -34,11 +33,12 @@ function closePopup() {
 
 // img reduction function
 const totalImage = 9;
-const images = Array.from({length: totalImage}, (_, index) => `food${index + 1}. jpg`);
+const images = Array.from({ length: totalImage }, (_, index) => `food${index + 1}.jpg`);
 console.log(images);
 
 const imgListContainer = document.querySelector('.imgList');
 
+// 이미지 리스트에 각 이미지를 추가
 images.forEach((image) => {
     const imgDiv = document.createElement('div');
     imgDiv.classList.add('img-hover');
@@ -48,6 +48,6 @@ images.forEach((image) => {
     img.alt = "japan food";
     img.onclick = () => popUp(image);
 
-    imgDiv = appendChild(img);
-    imgListContainer.appendChild(imgDiv);
+    imgDiv.appendChild(img);  // imgDiv에 img를 추가
+
 });
