@@ -34,9 +34,11 @@ body, html {
 }
 
 .navbar span {
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     margin-right: auto;
+    font-family: "Dongle", san-serif;
+    font-weight: 400;
 }
 
 header {
