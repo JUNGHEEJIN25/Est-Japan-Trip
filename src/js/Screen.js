@@ -41,7 +41,7 @@ images.forEach((image) => {
     imgDiv.classList.add('img-hover');
 
     const img = document.createElement('img');
-    img.src = "Est-Japan-Trip/src/image/" + image;
+    img.src = "src/image/" + image;
     img.alt = "japan food";
     img.onclick = () => popUp(image);
 
