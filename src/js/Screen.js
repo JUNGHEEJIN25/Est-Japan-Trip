@@ -6,11 +6,9 @@ function createFlowers() {
         const flower = document.createElement('div');
         flower.classList.add('background-flower');
 
-        // 랜덤 위치 설정
         flower.style.top = `${Math.random() * 90}%`;
         flower.style.left = `${Math.random() * 90}%`;
 
-        // 랜덤 애니메이션 딜레이 추가
         flower.style.animationDelay = `${Math.random() * 3}s`;
 
         left.appendChild(flower);
