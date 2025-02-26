@@ -1,4 +1,3 @@
-// flower animation function
 const left = document.querySelector('.left');
 const numberOfFlowers = 20;
 
@@ -18,7 +17,8 @@ function createFlowers() {
     }
 }
 
-createFlowers();  // 꽃 생성 함수 호출
+createFlowers();
+
 
 // popUp open function
 function popUp(src) {
@@ -34,7 +34,6 @@ function closePopup() {
 // img reduction function
 const totalImage = 9;
 const images = Array.from({ length: totalImage }, (_, index) => `food${index + 1}.jpg`);
-console.log(images);
 
 const imgListContainer = document.querySelector('.imgList');
 
